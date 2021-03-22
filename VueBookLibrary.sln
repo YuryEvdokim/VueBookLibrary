@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VueBookLibrary.ServerApp", "VueBookLibrary.ServerApp\VueBookLibrary.ServerApp.csproj", "{CC77D0FF-F41A-4F6A-B4F1-500B699DF1B5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "vueclientapp", "vueclientapp\vueclientapp.njsproj", "{233B9DF6-80FF-4F66-901D-76BA1B6AC17A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC77D0FF-F41A-4F6A-B4F1-500B699DF1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC77D0FF-F41A-4F6A-B4F1-500B699DF1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC77D0FF-F41A-4F6A-B4F1-500B699DF1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC77D0FF-F41A-4F6A-B4F1-500B699DF1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233B9DF6-80FF-4F66-901D-76BA1B6AC17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233B9DF6-80FF-4F66-901D-76BA1B6AC17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233B9DF6-80FF-4F66-901D-76BA1B6AC17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233B9DF6-80FF-4F66-901D-76BA1B6AC17A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F472276E-CDED-4350-B837-ECBEDAEC7715}
+	EndGlobalSection
+EndGlobal

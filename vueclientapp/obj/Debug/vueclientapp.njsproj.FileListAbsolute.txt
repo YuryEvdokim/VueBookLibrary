@@ -1,0 +1,3 @@
+D:\VS2019Projects\VueBookLibrary\vueclientapp\obj\Debug\vueclientapp.njsprojAssemblyReference.cache
+D:\VS2019Projects\VueBookLibrary\vueclientapp\obj\Debug\vueclientapp.njsproj.CoreCompileInputs.cache
+D:\VS2019Projects\VueBookLibrary\vueclientapp\bin\Microsoft.NodejsTools.WebRole.dll
