@@ -6,10 +6,13 @@
                     <div class="col-lg-5 nav-item active">
                         <router-link class="navbar-brand text-light" to="/">Home</router-link>
                     </div>
-                    <div class="col-lg-3 nav-item active">
-                        <router-link v-if="isLoggedIn" class="navbar-brand text-light" to="/admin">Admin</router-link>
+                    <div class="col-lg-3 nav-item active text-right">
+                        <div v-if="isLoggedIn"><router-link class="navbar-brand text-light" to="/admin">Admin</router-link></div>
                     </div>
-                    <div class="col-lg-4 text-right">
+                    <div class="col-lg-4 text-right" v-if="isLoggedIn" v-on:click="logout">
+                        <router-link class="navbar-brand text-light" to="/logout">Log out</router-link>
+                    </div>
+                    <div class="col-lg-4 text-right" v-else>
                         <router-link class="navbar-brand text-light" to="/login">Log in</router-link>
                     </div>
                 </nav>
@@ -20,8 +23,6 @@
 </template>
 
 <script>
-    // import BookDisplay from './components/BookDisplay.vue';
-    // import BookEditor from './components/BookEditor.vue';
 
     export default {
         computed: {
@@ -31,7 +32,7 @@
             logout: function () {
                 this.$store.dispatch('logout')
                     .then(() => {
-                        this.$router.push('/login')
+                        this.$router.push('/')
                     })
             }
         },

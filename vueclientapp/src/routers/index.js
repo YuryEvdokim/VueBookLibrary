@@ -10,6 +10,7 @@ let router = new VueRouter({
 	mode: "history",
 	routes: [
 		{ path: "/", component: Home },
+		{ path: "/logout", component: Home },
 		{ path: "/login", component: Login },
 		{ path: "/admin", component: Admin, meta: { requiresAuth: true } }
 	]
