@@ -13,6 +13,7 @@ let router = new VueRouter({
 		{ path: "/logout", component: Home },
 		{ path: "/login", component: Login },
 		{ path: "/admin", component: Admin, meta: { requiresAuth: true } }
+		{ path: "*", redirect: "/"}
 	]
 })
 router.beforeEach((to, from, next) => {
